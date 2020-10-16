@@ -1,0 +1,227 @@
+@import url("assets/fonts/Lato/latofonts.css");
+@import url("assets/fonts/Lato/latostyle.css");
+
+body{
+    font-family: "LatoWeb";
+    font-size: 12pt;
+    color: #C3C3C9;
+}
+
+h3, h5{
+    color: #48485F;
+    margin-bottom: 0;
+}
+
+.small-txt{
+    font-size: 8pt;
+}
+
+.main-content{
+    background-color: #EEEFF3;
+}
+
+.off-col{
+    background-color: #EEEFF3;
+    height: 100%;
+    padding-bottom: 15pt;
+}
+
+.col-section{
+    padding-left: 20px;
+}
+
+.section{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.section-text, .card-text{
+    color: #A1A1AA;
+    font-weight: 500;
+}
+
+.input-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon{
+    font-size: 15px;
+    padding: 10px;
+    color: #BEBEC5;
+    min-width: 50px;
+    text-align: center;
+}
+  
+.input-field{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+  
+.input-field:focus{
+    border: none;
+}
+
+.input-field::placeholder{
+    color: #D7D7DB;
+}
+
+.avatar{
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.avatar-sm{
+    position: relative;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.avatar img{
+    width: 100%;
+    height: auto;
+    transform: scale(2);
+    margin-top: 35px;
+}
+
+.avatar-sm img{
+    width: 100%;
+    height: auto;
+    transform: scale(2);
+    margin-top: 20px;
+}
+
+
+.sidebar a{
+    width: 100%;
+    color: #797988;
+    padding-left: 20px;
+}
+
+.sidebar a:hover{
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+ 
+ul li{
+    padding: 5px 30px 5px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ul li i{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.active{
+    border-left: 4px solid #80808F;
+}
+
+.active i{
+    color: #80808F;
+}
+
+.active2{
+    box-shadow: -5px 0px 0px 0px #80808F, 5px 0px 0px 0px #80808F;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #E4E5EB;
+    padding: 30px 20px 20px 20px;
+    resize: none;
+}
+
+textarea::placeholder{
+    color: B0B1BC;
+}
+
+.text-buttons{
+    background-color: #E4E5EB;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.text-buttons a{
+    color: #ACACBA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ion-icon{
+    font-size: 20px;
+}
+
+.btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.post-btn a{
+    color: #D3D3D7;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.post-btn a:hover{
+    color: #80808F;
+}
+
+.card{
+    border: none;
+    outline: none;
+}
+
+.card-img-top{
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tag{
+    color: #76A8E8;
+    font-size: 10pt;
+    font-family: "LatoWebBold";
+}
+
+.suggested-title{
+    font-size: 10pt;
+    margin-bottom: 0;
+    color: #538CD3;
+}
+
+.suggested-sub{
+    font-size: 8pt;
+}
+
+.r-icon{
+    color: #48485F;
+    background-color: #ECECEF;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.badge{
+    color: white;
+    background-color: #6BA2E6;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
